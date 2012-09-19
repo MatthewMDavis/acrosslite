@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 require 'stringio'
 
 require File.join(File.dirname(__FILE__), 'entry')

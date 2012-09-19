@@ -151,7 +151,7 @@ open must be called prior to parsing if content has not already been provided.
 def read_puzzle(filepath=nil)
   filepath ||= @filepath
   raise unless filepath
-	@content = open(@filepath, "ISO-8859-1:UTF-8").read
+	@content = open(@filepath).read
 end
 
 private
